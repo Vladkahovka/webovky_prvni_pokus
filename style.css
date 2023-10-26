@@ -1,0 +1,152 @@
+body{
+    color: #282425;
+    background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3
+{
+    color: #756158;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: left;
+    color: white;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    padding: 200px 0 0 30px;
+}
+
+h2{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 36px;
+}   
+
+a {
+    font-style: italic;
+}
+
+.fotogalerie,
+.vize
+ {
+    background-color: #f9e3d0;
+}
+
+.paticka {
+    background-color: #282425;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.foto-omne {
+    width: 300px;
+    height: 200px;
+    border-radius: 60%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border: 3px solid #756158;
+    border-radius: 10px;
+}
+
+.vize img {
+    width: 200px;
+    border-radius: 0 50px 50px 50px;
+    float: right;
+    margin: 0 0 30px 30px;
+ }
+
+ .kontakt img {
+    width: 250px;
+    border-radius: 50px 0 50px 50px;
+    float: left;
+    margin: 0 30px 30px 0;
+ }
+
+table {
+    border-spacing: 0;
+}
+
+ th,
+ td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+ }
+
+ .cena {
+    text-align: right;
+ }
+
+ .noci {
+    text-align: center;
+ }
+
+ section {
+    padding: 50px 15%;
+    overflow: auto;
+ }
+
+ .omne {
+    background-color: #fff1e6;
+ }
+
+ .shrnuti img {
+    width: 350px;
+    float: left;
+    margin: 0 30px 30px 0;
+    padding: 0;
+    border-radius: 50px 0 50px 50px;
+ }
+
+ .hlavicka {
+    background-image: url(obrazky/titulka_Urbanek.jpg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+
+}
+
+ .menu li {
+    display: inline-block;
+
+ }
+
+ .menu a {
+    display: inline-block; 
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+ }
+
+ .menu a:hover,
+ .menu a:focus,
+ .menu a:active {
+    background-color: #756158;
+ }
